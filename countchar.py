@@ -1,10 +1,7 @@
-while True:
-	print("Enter 'x' for exit.")
-	string = input("Enter any string: ")
-	if string == 'x':
-		break
-	else:
-		char = input("Enter a character to count: ")
-		val = string.count(char)
-		print(val,"\n")
+def count_letters(word, char):
+  count = 0
+  for c in word:
+    if char == c:
+      count += 1
+  return count
 		
