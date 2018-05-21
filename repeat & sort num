@@ -17,6 +17,6 @@ def main():
 			li.append(int(input()))
 		findrepn(li)
 	except:
-		print('unique')
+		print('Unique')
 
 main()
