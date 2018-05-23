@@ -1,6 +1,5 @@
-a=[1,2,3,4,5,6,7,8,9,10]
-b=int(input('enter num:'))
-if b in a:
+a=int(input('enter a num:'))
+if a in range(0,11):
     print ("yes")
 else:
     print("no")
