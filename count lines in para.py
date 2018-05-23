@@ -1,4 +1,4 @@
-fname = input("Enter file name: ")
+fname = input("Enter a file name: ")
 num_lines = 0
 with open(fname, 'r') as f:
     for line in f:
