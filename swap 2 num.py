@@ -1,0 +1,5 @@
+x=int(input('enter a number 1:'))
+y=int(input('enter a number 2:'))
+(x,y)=(y,x)
+print (x)
+print (y)
