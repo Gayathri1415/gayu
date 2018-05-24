@@ -1,5 +1,5 @@
-g=14
-k=15
-(g,k)=(k,g)
-print (g)
-print (k)
+a=int(input('enter a number 1:'))
+b=int(input('enter a number 2:'))
+(a,b)=(b,a)
+print (a)
+print (b)
