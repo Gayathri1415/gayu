@@ -1,6 +1,6 @@
 string=input("enter a string")
-word=1
+line=1
 for i in string:
     if(i=="."):
-        word=word+1
-print (word)
+        line=line+1
+print (line)
