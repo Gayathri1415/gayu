@@ -1,5 +1,5 @@
-a=int(input("Enter the number:\n"))
-k=input("Enter the string:\n")
+a=int(input())
+k=input()
 ak=list(k)
 i=0
 while a>0:
